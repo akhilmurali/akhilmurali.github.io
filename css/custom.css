@@ -1,0 +1,100 @@
+/* your styles go here */
+html{
+    height: 100%;
+    overflow: hidden!important;
+}
+
+body{
+    height: 100%;
+    overflow: hidden!important;	
+}
+
+.mail-to{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #303030;
+    font-size: 18px;    
+    text-transform: uppercase;
+    border-bottom: solid 1px #303030;
+}
+
+.mail-to:hover{
+    color: #ff0000;
+    border-bottom: solid 1px #ff0000;
+    text-decoration: none;
+}
+
+.page-heading{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #ff0000;
+    font-size: 64px;
+    letter-spacing: 1px;
+}
+
+.sub-heading{
+    font-family: 'Lato', sans-serif;
+    color: #303030;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.copyright{
+    font-family: 'Lato', sans-serif;
+    color: #303030;
+    font-size: 14px; 
+    margin-top: -30px;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 1200px){}
+.container {
+    max-width: 1250px;
+}
+
+@media (max-width: 464px){
+    .container {
+        padding-top: 50%;
+    }
+}
+
+@media (max-width: 464px){
+    .mail-to{
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        color: #303030;
+        font-size: 14px;    
+        text-transform: uppercase;
+        border-bottom: solid 1px #303030;
+    }
+    
+    .mail-to:hover{
+        color: #ff0000;
+        border-bottom: solid 1px #ff0000;
+        text-decoration: none;
+    }
+    
+    .page-heading{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        color: #ff0000;
+        font-size: 44px;
+        letter-spacing: 1px;
+    }
+    
+    .sub-heading{
+        font-family: 'Lato', sans-serif;
+        color: #303030;
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+    
+    .copyright{
+        font-family: 'Lato', sans-serif;
+        color: #303030;
+        font-size: 14px; 
+        margin-top: 0px;
+        letter-spacing: 1px;
+        padding-top: 50%;
+    }
+}
